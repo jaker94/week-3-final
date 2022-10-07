@@ -13,10 +13,19 @@ html{
     margin: 0 24px;
 }
 
+body {
+    background-color: #242424;
+}
+
+.container{
+    padding: 60px 0;
+}
+
 /** NAV BAR **/
 
 .nav{
 position:relative;
+
 }
 
 .nav__banner{
@@ -24,27 +33,23 @@ position:relative;
  position:absolute;
  z-index: -100;
  height: 100px;
-}
-
-.nav__wrapper{
-    display:flex;
-    flex-direction: column;
-}
-
-.nav__link--list{
-    z-index: 1;
-    color:white;
-    display:flex;
-    justify-content: space-around;
-    padding-top:12px;
-    font-weight: bold;
-    font-size:20px;
+ border: 2px solid #242424;
 }
 
 .nav__header{
-    color:white;
-    font-size: 32px;
-    text-align: center;
-    padding-top:24px;
+    color:black;
+    font-size: 72px;
+    text-align:center;
     font-weight: bold;
+    letter-spacing: 20px;
+    padding-top:12px;
+}
+
+
+/** LANDING PAGE **/
+
+.lp__wrapper-button--img{
+    max-width:1180px;
+    width:100%;
+    height:33vh;
 }
