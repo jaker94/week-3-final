@@ -11,6 +11,9 @@
       crossorigin="anonymous"
     ></script>
     <script src="./app.js" defer></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700;900&family=Lato:wght@400;700&family=Permanent+Marker&family=Roboto:wght@300;400;700;900&display=swap');
+    </style>
   </head>
   <body>
         <div class="nav">
@@ -20,14 +23,28 @@
             </div>    
         </div>
         <div class="container">
-            <div class="row">
-                <div class="lp__wrapper">
-                    <div class="lp__wrapper--button">
-                        <img class="lp__wrapper-button--img" src="./assets/home4.png">
-                        <h2 class="lp__wrapper--text text--home"> Home</h2>
+                <div class="lp">
+                    <div class="lp__wrapper">
+                        <a href="#">
+                            <div class="lp__wrapper--button button-left" >
+                                <img class="lp__wrapper-button--img imgs--left" src="./assets/home4.png">
+                                <h2 class="lp__wrapper--text text--home"> HOME</h2>
+                            </div>
+                        </a>
+                        <a href="./search.html" class="search__btn">
+                            <div class="lp__wrapper--button button-right" >
+                                <h2 class="lp__wrapper--text text--search" > SEARCH</h2>
+                                <img class="lp__wrapper-button--img imgs--right"  src="./assets/search1.jpg">
+                                
+                            </div>
+                        </a>
+                        <a href="#" class="other__btn"></a>
+                        <div class="lp__wrapper--button button-left">
+                            <img class="lp__wrapper-button--img imgs--left" src="./assets/contact1.jpg">
+                            <h2 class="lp__wrapper--text text--contact"> CONTACT</h2>
+                        </div>
                     </div>
-                </div>
-            </div>
+                </div>    
         </div>
   </body>
 </html>
