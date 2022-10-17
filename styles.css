@@ -148,5 +148,41 @@ font-family: 'Permanent Marker', cursive;
 }
 
 .other__btn{
+    cursor:not-allowed;
+}
 
+/** SEARCH **/
+
+
+.search__container{
+    margin:24px;
+    padding: 24px 0;
+    border:2px solid black;
+    border-radius: 44px;
+    
+}
+
+input{
+    font-size:48px;
+    background-color: #242424;
+    border:none;
+    width:100%;
+    color:white;
+    letter-spacing: 12px;
+}
+
+input:focus{
+outline:none !important;
+}
+
+
+form{
+    text-align: left;
+    margin: 0 12px;
+    padding: 0 12px;
+}
+
+input::placeholder{
+    color:white;
+    letter-spacing: 36px;
 }

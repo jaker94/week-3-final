@@ -1,0 +1,105 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+a{
+    text-decoration: none;
+}
+
+body {
+    background-color:#242424;
+}
+
+.container{
+    padding: 12px 0;
+}
+
+/** NAV **/
+
+.nav{
+    position:relative;
+    
+    }
+    
+    .nav__banner{
+     width:100%;
+     position:absolute;
+     z-index: -100;
+     height: 100px;
+     border: 2px solid #242424;
+    }
+    
+    .nav__header{
+        color:black;
+        font-size: 72px;
+        text-align:center;
+        font-weight: bold;
+        letter-spacing: 56px;
+        padding-top:12px;
+    }
+
+    /** Landing page **/
+    
+.lp{
+    display:flex;
+    justify-content: center;
+    max-width: 1280px;
+    margin-left: 300px;
+}
+
+.lp__wrapper{
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    width:100%;
+}
+
+.lp__wrapper--button{
+    display:flex;
+    border: 2px solid black;
+    border-radius: 50px;
+    width:100%;
+    margin-top:12px;
+    justify-content: space-between;
+    background-color:white;
+}
+
+.lp__wrapper--button:hover{
+    transform: scale(1.1);
+}
+
+.lp__wrapper--button:hover .lp__wrapper-button--img{
+    opacity: 0.8
+}
+
+.lp__wrapper-button--img{
+    max-width:1180px;
+    width:93%;
+    height:27vh;
+    border-radius:44px;
+    
+}
+
+.lp__wrapper--text{
+writing-mode: vertical-lr;
+text-orientation: upright;
+color:#242424;
+margin: 0 36px;
+font-family: 'Permanent Marker', cursive;
+}
+
+form {
+    background-color: #4654e1;
+    width: 300px;
+    height: 44px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
